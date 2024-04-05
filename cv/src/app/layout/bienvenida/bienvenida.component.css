@@ -1,0 +1,90 @@
+.main-container {
+  width: 100%;
+  height: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+ flex-direction: column;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.5rem;
+  background-color: #3498db; /* Azul fuerte */
+  color: #fff; /* Texto blanco */
+}
+
+
+.main-container-profile{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.profile-text :nth-child(n){
+  margin: 0;
+  padding: 5px;
+}
+
+.profile-info {
+  width: 60%;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.container-profile{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.profile-info{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-info .profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.profile-info .profile-image img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.profile-info .profile-name {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.profile-info .profile-title {
+  color: #718096;
+}
+
+.profile-description p {
+  text-align: justify;
+}
+
+.code-container {
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  overflow: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.code-block {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1;
+}
