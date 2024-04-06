@@ -7,29 +7,35 @@
   <div class="main-container-profile">
     <div class="profile-info">
       <div class="container-profile">
-        <div class="profile-image"><img src="/placeholder.svg" width="80" height="80" alt="David" /></div>
+        <div class="profile-image"><img src="assets/img/perfil.jpg" width="90" height="90" alt="David" /></div>
         <div class="profile-text">
           <h1 class="profile-name">David Silva</h1>
           <p class="profile-title">Full-Stack Developer</p>
         </div>
       </div>
       <div class="profile-description">
-        <p>
+        <p *ngIf="idiomaNavegador.substring(0, 2) === 'en'">
           Hi, I'm David. I love building web applications and
           experimenting with new technologies. My passion for coding
           extends to both the front end and the back end. I'm always
           eager to learn and implement the best practices to create
           efficient and elegant solutions.
         </p>
+        <p *ngIf="idiomaNavegador.substring(0, 2) === 'es'">
+          ¡Hola, soy David! Me encanta construir aplicaciones web y experimentar con nuevas tecnologías. Mi pasión por
+          la codificación se extiende tanto al front end como al back end. Siempre estoy ansioso por aprender e
+          implementar las mejores prácticas para crear soluciones eficientes y elegantes.
+        </p>
       </div>
     </div>
     <div class="code-container">
       <pre class="code-block">function greet(name){{codeinfo}}
 
-        console.log(greet('World'));
+console.log(greet('World'));
+
+output:
+Hello, World!
       </pre>
     </div>
   </div>
-
 </main>
-

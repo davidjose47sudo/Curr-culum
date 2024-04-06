@@ -5,10 +5,12 @@ import { CurriculumModule } from '../curriculum/curriculum.module';
 
 
 
+
 @NgModule({
   declarations: [BienvenidaComponent],
   imports: [
     CommonModule,CurriculumModule
   ],
+  exports: [BienvenidaComponent]
 })
 export class BienvenidaModule { }
