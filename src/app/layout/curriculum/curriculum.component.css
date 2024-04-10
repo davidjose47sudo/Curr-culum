@@ -85,8 +85,8 @@
 }
 
 .space-y-4 {
-  margin-top: 1rem; /* Ajustar según sea necesario */
-  margin-bottom: 1rem; /* Ajustar según sea necesario */
+  text-align: left;
+  margin: 1rem;
 }
 
 .space-y-6 {
@@ -110,6 +110,23 @@
 
 .card_footer{
  opacity: 0.85;
+}
+
+.descripcion-trabajo{
+  margin: 5px;
+  font-size: small;
+  text-align: left;
+}
+
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+span{
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1024px){
